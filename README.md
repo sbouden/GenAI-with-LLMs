@@ -40,19 +40,13 @@ Evaluate model performance using metrics and benchmarks. Optimize models for dep
 Note that while LLMs have grown in capabilities, they still have limitations, such as inventing information when unsure or limited complex reasoning abilities.
 
 ## Labs
-#### Lab 1
-
-[Lab 1 - Generative AI Use Case: Summarize Dialogue](https://github.com/sbouden/GenAI-with-LLMs/blob/main/summarize_dialogue_with_flanT5.ipynb)
-# Generative AI Use Case: Summarize Dialogue with GenAI
+[Lab 1 - Generative AI Use Case: Summarize Dialogue](https://github.com/sbouden/GenAI-with-LLMs/blob/main/1_summarize_dialogue_with_flanT5.ipynb)
 
 - Explore how the input text affects the output of the model
 - Perform prompt engineering to direct it towards the task you need
 - Compare zero shot, one shot, and few shot inferences to enhance the generative output of Large Language Models
 
-
-#### Lab 2
-[Lab 2 - Fine-tune a generative AI model for dialogue summarization](https://github.com/sbouden/GenAI-with-LLMs/blob/main/fine_tune_gen_ai_model.ipynb)
-Fine-tuning and evaluating large language models
+[Lab 2 - Fine-tune a generative AI model for dialogue summarization](https://github.com/sbouden/GenAI-with-LLMs/blob/main/2_fine_tune_flanT5.ipynb)
 
 - Describe how fine-tuning with instructions using prompt datasets can improve performance on one or more tasks
 - Define catastrophic forgetting and explain techniques that can be used to overcome it
@@ -60,8 +54,6 @@ Fine-tuning and evaluating large language models
 - Explain how PEFT decreases computational cost and overcomes catastrophic forgetting
 - Explain how fine-tuning with instructions using prompt datasets can increase LLM performance on one or more 
 
-
-#### Lab 3
 [Lab 3 - Fine-tune FLAN-T5 with reinforcement learning to generate more-positive summaries]()
 Reinforcement learning and LLM-powered applications
 
