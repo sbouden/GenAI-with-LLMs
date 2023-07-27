@@ -1,8 +1,8 @@
 # [Generative AI with LLMs](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
 In Generative AI with Large Language Models (LLMs), we learn the fundamentals of how generative AI works, and how to deploy it in real-world applications.
 
-# Course summary
-## Transformer Architecture Overview
+## Course summary
+#### Transformer Architecture Overview
 
 The complete transformer architecture consists of an encoder and a decoder components. The encoder encodes input sequences into a deep representation of the structure and meaning of the input. The decoder, working from input token triggers, uses the encoder's contextual understanding to generate new tokens. It does this in a loop until some stop condition has been reached. While the translation example you explored here used both the encoder and decoder parts of the transformer, you can split these components apart for variations of the architecture. 
 
@@ -10,17 +10,17 @@ The complete transformer architecture consists of an encoder and a decoder compo
 - Encoder-decoder models: Perform well in sequence-to-sequence tasks like translation, handling different input and output sequence lengths (e.g., BART, T5).
 - Decoder-only models: Commonly used and capable of generalizing to most tasks (e.g., GPT, BLOOM, Jurassic, LLaMA).
 
-## Prompt Engineering
+#### Prompt Engineering
 
 Prompt engineering is essential for enhancing model performance. It involves refining the prompt language to guide the model's behavior. In-context learning is a powerful strategy where examples or additional data are included in the prompt.
 
-## Inference Techniques
+#### Inference Techniques
 
 - Zero-Shot Inference: Larger models can perform well without specific examples, grasping tasks even without explicit training on them.
 - One-Shot Inference: Smaller models benefit from providing a single example within the prompt.
 - Few-Shot Inference: Extending one-shot inference with multiple examples can further improve the model's performance.
 
-## Configuration Parameters
+#### Configuration Parameters
 
 Adjusting model parameters during inference can influence output:
 
@@ -31,7 +31,7 @@ Adjusting model parameters during inference can influence output:
 
 Remember to experiment with different techniques and parameters to achieve desired model behavior.
 
-## Training and Deployment
+#### Training and Deployment
 
 Start with an existing model and consider fine-tuning for specific tasks. Ensure models behave well and align with human preferences using reinforcement learning with human feedback if needed.
 
@@ -39,7 +39,7 @@ Evaluate model performance using metrics and benchmarks. Optimize models for dep
 
 Note that while LLMs have grown in capabilities, they still have limitations, such as inventing information when unsure or limited complex reasoning abilities.
 
-### Learning Objectives of each lab
+## Labs
 #### Lab 1
 
 [Lab 1 - Generative AI Use Case: Summarize Dialogue](https://github.com/sbouden/GenAI-with-LLMs/blob/main/summarize_dialogue_with_flanT5.ipynb)
